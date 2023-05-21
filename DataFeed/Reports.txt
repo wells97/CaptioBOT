@@ -1,0 +1,204 @@
+3. Los informes de gastos
+Los informes no son otra que una conglomeración de gastos. La persona que reporta los gastos puede generar distintos tipos de informe bien sea por periodo de tiempo (por ejemplo: gastos de abril 2018) o por proyecto (gastos feria de Barcelona)
+
+Gestionar informes de gastos 
+Estado de los informes 
+Supervisar informes de gastos 
+Descarga de informes 
+Gestionar informes de gastos
+Puedes gestionar los informes de gastos desde la pestaña del menú superior Informes.
+
+Aunque habitualmente el trabajo con informes recaerá sobre la figura del supervisor, si la supervisión de informes de un usuario no está asociada a ningún workflow, esta tarea recaerá en ti como persona que administra el entorno.
+
+Estado de los informes
+ 
+
+Verás que la pestaña de informes se estructura en varias secciones que reflejan el estado de los informes.01.jpg
+
+Pendientes de aprobar: son aquellos que habiendo sido enviados por un usuario reportador de gastos sin workflow asignado, aún no están aprobados. Te contamos cómo supervisar y aprobar informes un poco más adelante.
+
+Aprobados: son aquellos que, valga la redundancia, están aprobados.
+
+Todos: podrás encontrar todos los informes de todos los usuarios del entorno independientemente de su estado de aprobación, incluidos los pendientes.
+
+Cómo supervisar informes desde la web
+Como admin, solo tendrás que supervisar informes si tus usuarios no tienen asignados workflows y por lo tanto no tienen supervisor.
+
+Recibirás un aviso por email cada vez que recibas un informe para supervisar en Captio. Para ello, podrás hacerlo fácilmente desde la pestaña INFORMES > Pendientes de revisión. Puedes acceder a través del enlace en el email de aviso o bien directamente desde Captio.
+
+Artículos relacionados: 
+
+Cómo supervisar informes desde la app
+Cómo supervisar informes desde la web 
+Pasar informes aprobados a borrador
+Aviso importante: La aprobación de informes de gastos puede desencadenar una serie de procesos automáticos, como por ejemplo la contabilización en un ERP. Ten en cuenta esto en el momento de modificar el estado de informes aprobados que podrían ya estar contabilizados, porque puede llegar a suponer duplicidad de asientos contables al aprobarse nuevamente el informe.
+
+Si necesitas que un informe vuelva al usuario en estado Borrador para que incluya algún gasto o haga alguna modificación, podrás hacerlo de la siguiente forma:
+
+Ve a la pestaña de Informes.
+Busca el informe aprobado o exportado y acceder a él.
+Haz clic en el botón Retroceder a borrador.
+Aparecerá una ventana de confirmación, donde podrás elegir continuar (en el caso de querer retroceder este informe a borrador) o cancelar dicha acción.
+02.jpg
+
+Una vez retrocedido el informe a borrador, ya estará disponible en la bandeja del usuario que lo creó para que haga las modificaciones pertinentes.
+
+Esta funcionalidad solo está disponible para el usuario administrador y solo en la solapa de informes Aprobados.
+
+Descarga de informes
+La descarga de los informes se puede realizar desde las diferentes secciones. En cada una de ellas se muestran los diferentes botones para descargar los informes. Los botones básicos son Descargar PDF y Descargar Excel.
+
+Descargar PDF: esta opción permite generar un archivo en formato pdf correspondiente a uno o varios informes. El aspecto de estos ficheros de exportación puede personalizarse desde la pestaña Configuración.
+
+Descargar Excel: esta opción permite generar un archivo CSV con los datos de los informes que seleccionemos. Esto resulta útil cuando es preciso elaborar la información antes de añadirla a un sistema de contabilidad. Se te enviará un email con el archivo; este email puede configurarse desde la pestaña de Configuración.
+
+El archivo generado tendrá formato CSV y podrá abrirse con Microsoft Excel. Los datos estarán separados por ";" y mostrarán una fila por cada ticket existente en los informes y columnas con los siguientes datos de cada uno de ellos: código del informe, nombre, estado, workflow, usuario, centro de coste, fecha, proveedor, categoría, forma de pago, moneda, etc... Toda esta información es la que podemos utilizar para importar al sistema contable.
+
+Gestionar informes desde la web
+ 
+Cómo generar informes a través de la web
+Una vez has generado los gastos, puedes crear fácilmente informes para solicitar que te los liquiden (es decir, que te devuelvan el dinero.) Para ello, accede a la pestaña de informes, haz click en “crear informe” y añade un título (por ejemplo: gastos marzo 2022 o Feria Barcelona 2017).
+
+A continuación, se abrirá tu informe, donde podrás realizar las siguientes acciones:
+
+Añade los gastos correspondientes: haz click en “Añadir tickets”, se abrirá una ventana donde verás todos los gastos pendientes de añadir a un informe (si lo necesitas, puedes filtrar por fecha para encontrarlos), selecciona los que consideres y haz click en Añadir.
+Antes de pedir la aprobación de tu informe, veámos qué más campos hay en él:
+Gastos, reembolsables o no reembolsables (los que se hacen con la tarjeta de empresa): Aquí podrás ver todos los gastos que has seleccionado previamente; comprueba que está todo correcto y, si has añadido algún gasto que no aplica, elimínalo haciendo click en “quitar”
+Anticipos: si has pedido algún anticipo para este informe, selecciónalo. Se hará el cálculo de lo que te han adelantado y lo que has pagado tú para saber finalmente si la liquidación será positiva o negativa (y tendrás que devolver tú lo que te haya sobrado)
+Conciliación: la conciliación es un proceso contable que empareja cada pago que realizas con tu tarjeta corporativa con los gastos que has generado. Si tienes esta opción disponible, haz click en “conciliación” y comprueba que todo está en orden.
+Finalmente, revisa que todos los gastos (reembolsables y no) son correctos.
+Ahora sí, vuelve al inicio de tu informe solicita la aprobación haciendo click en “Solicitar aprobación.” Puedes “poner en copia” a quienes tú elijas añadiendo su dirección de correo electrónica en el campo destinado a ello.
+Cómo editar informes a través de la web
+Recuerda que para modificar un informe o borrarlo, debe estar en estado "Borrador" o "Rechazado". Modificar un informe implica modificar el propio informe o sus gastos asociados.
+
+Para quitar, editar o añadir gastos, haz lo siguiente:
+
+Accede al informe en el que se encuentra el tique que deseas editar o quitar.
+Si quieres quitar un gasto, haz click en el botón Quitar que se encuentra al lado del gasto.
+Si deseas editarlo, selecciona el gasto para acceder a su información, modificarla y luego guardar los cambios.
+Si deseas añadir nuevos gastos al informe, selecciona el botón Añadir ticket
+Para eliminar un informe, indica el informe y selecciona el botón Eliminar; ten en cuenta que solo se borrará el informe, no se perderán los gastos que contenía. Estos volverán a la lista de tickets pendientes y podremos volver a generar un nuevo informe con ellos.
+
+ 
+
+Cómo generar un nombre de informe de forma automática
+ 
+
+Nombre autogenerado: Permite definir unas claves para que se genere el nombre del informe de forma automática según la configuración. Las claves de configuración se pueden combinar entre ellas copiando una al lado de la otra de forma seguida.  Hay que copiar todo el código en rojo sin modificarlo (excepto en los casos que se especifica). 
+
+Las claves disponibles son las siguientes:
+
+ 
+
+{user:name} => Nombre
+
+{user:email} => Email
+
+{user:userCode} => OpcionesUsuarios.CodigoUsuario
+
+{user:costCentre} => OpcionesUsuarios.CentroCoste
+
+{user:companyCode} => CodigoEmpresa
+
+ 
+
+{today|yyyyMMdd} => fecha actual con el formato yyyyMMdd. 
+
+* El formato se puede personalizar, más info en https://docs.microsoft.com/es-es/dotnet/standard/base-types/custom-date-and-time-format-strings
+
+ 
+
+{ReportCounter|#} => Contador autoincremental por empresa
+
+{ReportCounterAnnual|#} => Contador autoincremental por empresa y año
+
+{ReportCounterForUser|#} => Contador autoincremental por usuario
+
+{ReportCounterForUserAnnual|#} => Contador autoincremental por usuario y año
+
+* "#" corresponde al número de caracteres del campo, se añadirán ceros a la izquierda si es necesario.
+
+{ReportCounterMonthly} - Contador mensual por entorno (informes)
+{ReportCounterForUserMonthly} - Contador mensual por usuario (informes)
+{TravelCounterMonthly} - Contador mensual por entorno (viajes)
+{TravelCounterForUserMonthly} - Contador mensual por usuario (viajes)
+{AdvanceCounterMonthly} -  Contador mensual por entorno (anticipos)
+{AdvanceCounterForUserMonthly} - Contador mensual por usuario (anticipos)
+{weekOfTheYear} - Número de semana del año
+
+Gestionar informes desde la app
+ 
+
+En este artículo te enseñaremos a: 
+
+Cómo generar un informe de gastos desde la app 
+Cómo añadir gastos a un informe desde la app 
+Desde el listado de gastos 
+Desde un informe 
+Cómo editar informes a través de la app  
+Cómo generar un informe de gastos desde la app
+Podrás crear un informe nuevo desde la opción Informes del menú principal. En el apartado Mis Informes podrás ver, arriba a la derecha, el botón de crear nuevos informes.
+
+       Pesta_a_Informes.png      crear_informe.jpg  
+
+                     crear_informe2.jpg
+
+ 
+
+A continuación:
+
+Haz clic sobre el botón.
+Añade el nombre del informe.
+Añade gastos al informe haciendo click en “Añadir tickets”. O guárdalo y termina de rellenarlo más tarde.
+ 
+
+ 
+
+Cómo añadir gastos a un informe
+Hay varias formas de añadir gastos de un informe:
+
+Desde el listado de gastos
+Podrás añadir un tique a un informe desde la opción Gastos del menú principal.
+
+Una vez ahí:
+
+- Entra en el gasto que te interese
+
+- Asígnale un informe que esté en borrador (si no aparece esta opción es porque no tienes ningún informe creado) Con esta acción, el gasto desaparecerá del listado general de gastos.
+
+- Haz click en Guardar Cambios
+
+      a_adir_gasto_a_informe_desde_gasto.jpg
+
+ 
+
+Desde un informe
+Podrás añadir un gasto a un informe desde la opción Informes del menú principal. Dentro de este apartado podrás ver varias secciones:
+
+- Mis Informes (informes pendientes de aprobación)
+
+- Aprobados (histórico de los últimos 12 informes aprobados)
+
+- Y, si eres revisor de informes, también tendrás visible la sección Revisión.  
+
+En Mis informes verás los que están en estado de borrador, rechazados o en revisión. Solo podrás añadir gastos en los que estén en borrador y revisión. Para hacerlo:
+
+- Accede al informe Haz click en el icono de ticket (el del centro en la esquina superior derecha.)
+
+- Se abrirá una pantalla con todos los gastos listos para añadir.
+
+- Puedes añadirlos todos todos de golpe o seleccionar individualmente uno a uno los que quieras.
+
+- Haz click en añadir. La app calculará el total del informe sumando los importes de los nuevos gastos.
+
+       a_adir_gasto_a_informeeee.jpg        a_adir_gasto_desde_informe2.jpg
+
+ 
+Cómo editar informes a través de la app
+Podrás editar el nombre, los campos personalizados o el workflow (flujo de aprobación) de un informe ya creado mientras esté en estado borrador y/o rechazado. Para ello:
+
+Accede con tus credenciales de acceso a la App de Captio.
+Para modificar el campo personalizado asociado a un informe desde la app de Captio selecciona la opción Informes del menú principal.
+Entra al informe que quieres modificar y pulsa en el icono con forma de lápiz que aparece en la parte superior derecha.
+Realiza los cambios que quieras. Haz click en guardar.
+

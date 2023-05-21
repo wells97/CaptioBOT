@@ -1,0 +1,212 @@
+2. Gestión de usuarios en Captio
+En la sección “usuarios” dispondrás de toda la información relativa a lo realmente importante: las personas que trabajan contigo.
+
+En este artículo encontrarás información sobre: 
+
+Tipos de usuarios en Captio 
+Cómo añadir nuevos usuarios 
+Funcionalidades avanzadas: grupos de usuarios 
+Funcionalidades avanzadas: delegación 
+ 
+Tipos de usuarios en Captio 
+Antes de nada, nos gustaría recordarte qué tipos de usuarios hay en Captio y qué roles desempeñan.
+
+Rol Administrador
+Es la persona que configura y gestiona el entorno en Captio. Además, en entornos simples en los que no hay flujos de aprobación, será la persona encargada de aprobar los informes y peticiones del resto de usuarios.
+
+ 
+
+Rol Supervisor
+Esta persona, además de poder ejercer el rol de reportador, recibe los informes de gastos enviados por su equipo y decide si aprobarlos o rechazarlos.
+
+Tareas de este rol
+
+- Comprobar los gastos, sus anotaciones y los justificantes
+- Aprueban o rechazan los informes y por tanto el reembolso de los gastos.
+
+ 
+
+¿Cómo funciona el proceso?
+
+- Para que alguien desempeñe el rol de supervisor, la persona encargada de administrar el entorno le debe añadir en alguna etapa de un flujo de aprobación, ya sea para aprobar informes, anticipos o viajes.
+
+- Cada vez que se activa una etapa de aprobación, la persona supervisora recibe una notificación (vía correo electrónico o app) avisando de que hay tareas de supervisión pendientes.
+
+- Se accede al elemento en cuestión; las principales funcionalidades relacionadas con la supervisión están en los apartados “Informes/anticipos/viajes pendientes de revisar”, “informes/anticipos/viajes revisados”
+
+ 
+
+Si quieres, puedes leer más sobre cómo aprobar informes en la web, cómo aprobar anticipos y cómo aprobar viajes.
+
+ 
+Rol Reportador
+Las personas con rol reportador son las que habitualmente desarrollan su trabajo fuera de la oficina y generan gastos. Estos gastos se deben presentar a la empresa para su pago.
+
+Tareas que puede realizar:  
+
+- Capturar gastos y generar informes de gasto para reclamarlos, bien a través de la web o de la app.
+
+- Solicitar anticipos
+
+- Solicitar viajes
+
+ 
+
+Cómo añadir nuevos usuarios
+Para añadir un nuevo usuario, haz click en “Crear Usuario” para abrir el asistente en una ventana emergente. El asistente está compuesto por varias pestañas para configurar los atributos de cada usuario y su relación con la gestión de gastos de la empresa.
+
+01.jpg
+
+ 
+Opciones básicas a la hora de añadir usuarios
+Podríamos decir que aquí tienes que añadir todos los datos relativos a la identificación del usuario.
+
+Login: Email imprescindible y único que sirve para identificar a esa persona dentro de Captio; es un campo obligatorio.
+Contraseña: deberá contener al menos 8 caracteres (sin espacios) incluyendo un número y una letra; es un campo obligatorio.
+Nombre: Si quieres, añade nombre y apellidos para que sea más sencillo reconocer a esa persona.
+Usuario activado: Esta opción permite activar o desactivar el acceso de un usuario a Captio sin eliminarlo, así se podrá acceder a toda la información relacionada con sus gastos sin permitir que entre de nuevo a la aplicación: es un campo obligatorio.
+Centro de coste: Puedes especificar un centro de coste asociado al usuario para que la contabilidad te resulte más sencilla. 
+Código de usuario: Igualmente, puedes establecer un código de usuario para facilitar la lectura de informes.
+Código de empresa: Si trabajas en un entorno multicompañía, puedes especificar el código de la empresa del usuario.
+ 
+Opciones Avanzadas a la hora de añadir usuarios
+02.jpg
+
+Una vez tenemos identificado al usuario, es momento de atribuirle características propias sobre sus gastos:
+
+Kilometraje: Aquí puedes asignar una tasa de kilometraje por defecto para este usuario; la categoría y la forma de pago se cargarán con los valores establecidos anteriormente durante la configuración de tasa de kilometraje. En caso de no haberlo hecho o querer modificar la tasa para un usuario en concreto, puedes definirlo en este momento. Si no se definen, el usuario reportador podrá seleccionarlos en el momento de introducir un kilometraje.
+Moneda: Un paso imprescindible en la creación de usuarios es asociarlos con una moneda por defecto, ya que el tipo de moneda de los gastos capturados no se detecta automáticamente sino que es añadida por el usuario. Si un usuario reporta sus gastos normalmente en dólares, puedes asociarlo a esta moneda para aparezca por defecto.  El usuario podrá cambiar y restituir la moneda en cualquier momento (por ejemplo, en el caso de un viaje).
+Editar ticket con imagen: Al igual que vimos en configuración > edición de ticket si marcas esta opción, el usuario podrá editar los datos de los gastos leídos por Captio (proveedor, fecha e importe).
+Permiso para ver todos los informes: Si marcas esta opción, el usuario podrá ver TODOS los informes de todos los usuarios del entorno (solo ver, no editar) Esto puede resultar útil, por ejemplo, a responsables de recursos humanos o controllers.
+ 
+Identificadores de formas de pago
+En esta sección puedes añadir identificadores de formas de pago que se utilizarán para realizar la conciliación bancaria.
+
+Para cumplir con las exigencias de RGPD, todas las tarjetas bancarias que se introduzcan en nuestro sistema tienen que estar enmascaradas. A partir de ahora, cuando añadas nuevas tarjetas como identificador para la conciliación bancaria, verás que las almacenamos enmascaradas.
+
+En la sección de identificadores de forma de pago (para la conciliación bancaria), puedes escoger entre tarjeta de crédito u otros métodos (como código de usuario, matrícula...). Si escoges tarjeta, introduce su número, selecciona qué tipo de forma de pago es y haz click en "Añadir". En este primer momento podrás ver la numeración completa para asegurarte de que todo es correcto. Si es así, haz click en el botón de "Guardar".
+
+Si vuelves a acceder a esta pantalla de "opciones avanzadas de usuarios", verás que la numeración ha sido enmascarada.
+
+ 
+Opciones de workflows a la hora añadir usuarios.
+03.jpg
+
+Llegamos a una de las partes más importantes en la gestión de gastos de empresa: los workflows o flujos de aprobación. Como sabes, en Captio puedes definir distintas etapas de supervisión para que los informes y las peticiones especiales (anticipos y viajes) se aprueben de forma ágil.
+
+Desde esta pestaña, podrás asignar a un usuario uno o varios flujos de aprobación para sus informes y, si lo tienes activado en tu plan, anticipos y viajes.
+
+Si un mismo usuario tiene varios flujos de aprobación, puede escoger uno “Por defecto” seleccionandolo desde el desplegable; pero ten en cuenta que a la hora de enviar a aprobar el informe, el usuario tendrá la posibilidad de cambiarlo.
+
+Recuerda que para que poder hacer esta configuración, habrás tenido que definir los workflows previamente.  
+
+¡Importante! El proceso de creación de un usuario finalizará al clicar el botón Guardar/Save.
+
+ 
+Cómo editar usuarios existentes
+Una vez tienes creado y guardado un usuario, te aparecerá en el panel general. Podrás cambiar su configuración siempre que lo desees, haciendo click en el enlace “Editar” que verás a la derecha.
+
+Cómo desactivar o eliminar un usuario
+
+Antes de nada, conviene dejar clara la diferencia entre desactivar y eliminar:
+
+Si desactivas un usuario, la persona tras su credenciales no podrá entrar a Captio hasta que se vuelva a activar; su información y sus gastos estarán disponibles para que los puedas consultar.
+Si eliminas un usuario, se bloqueará permanentemente el acceso a la plataforma y se eliminará como tal; sus informes estarán disponibles.
+Para desactivar un usuario, tendrás que desmarcar la opción de “usuario activado” que encuentras en la pestaña de información básica del asistente de creación de usuario.
+
+Para eliminar un usuario puede hacerlo con el botón de eliminar que encontrarás en la parte inferior del asistente de creación de usuario.
+
+ 
+Funcionalidades avanzadas: Grupos de usuarios
+Los grupos de usuarios permiten mantener la consistencia en entornos con muchos usuarios, ya que permiten asignar categorías y formas de pago de forma homogénea a todos sus integrantes y la posibilidad de hacer cambios en todos los usuarios de un grupo a la vez.
+
+Añadir un nuevo grupo de usuario
+Para crear un nuevo grupo de usuario, dirígete a la segunda pestaña dentro de la sección usuarios, “grupos”. 
+
+
+1. Al hacer click en “Crear grupo” se abrirá el asistente
+
+2. Añade un nombre representativo del grupo de usuarios. Pongamos, por ejemplo, que queremos crear la división “levante” de nuestro equipo comercial.
+
+3. Buscar y añade al grupo los usuarios que quieras; puedes utilizar como filtros algunos de los valores que usaste al dar de alta los usuarios (código de empresa, código de usuario, centro de coste, email o nombre). Te aparecerán en la columna de la derecha todos los usuarios que respondan a tus filtros, para añadirlos al grupo, haz click en el símbolo + y se pasará a la columna de la izquierda. Si te equivocas, haz click en - para quitarlo del grupo.
+
+
+
+4. Accede a la segunda pestaña del asistente, “Categorías”, para asignar qué categorías estarán disponibles para este grupo de usuarios. El mecanismo es el mismo que para añadir usuarios (con + las añades y con - las quitas)
+
+5. También puedes asignarles formas de pago, para ello ve a la última pestaña del asistente y añade (+) o quita (-) las formas de pago que quieras. Cuando termines, haz click en “Guardar”.
+
+
+Importante: Un mismo usuario puede pertenecer a varios grupos y se le puede asignar un grupo como principal. Éste definirá las características básicas del usuario, el resto vendrán dadas por la combinación de los atributos del resto de grupos. Puedes definir el grupo principal de cada usuario en el apartado Editar Usuario.
+
+Una vez hayas creado los grupos de usuarios, podrás ir asignando tus nuevas incorporaciones a sus correspondientes grupos directamente desde el asistente de creación de usuario, en la cuarta pestaña superior “Grupos”.
+
+
+
+¿Te interesa esta funcionalidad? Consulta con nuestro equipo
+
+ 
+ 
+Funcionalidades avanzadas: Delegación de usuarios
+La delegación sirve para hacer que usuarios de Captio asuman temporalmente las atribuciones de otros para realizar una tarea. Es una opción muy útil en caso de querer ceder el uso de Captio a un asistente, por ejemplo.
+
+Para acceder a todas las funcionalidades relacionadas con la delegación haz click en la tercera pestaña de la sección “Usuarios”
+
+ 
+
+Visión general
+
+
+Mediante las dos primeras casillas, el administrador podrá habilitar la opción para que los usuarios gestionen su propias delegaciones y habilitar el uso de delegaciones totales de permisos.  Si el administrador permite a los usuarios crear delegaciones, recibirá un correo resumen de los cambios en las delegaciones realizados por los usuarios.
+
+Con la delegación parcial, el usuario receptor de permisos podrá capturar gastos y realizar liquidaciones en nombre del usuario delegador. Mediante la total, el usuario receptor podrá realizar en nombre del usuario delegador cualquier acción que este estuviese habilitado para hacer.
+
+En el listado de la pantalla de Delegación se muestran los usuarios que en la actualidad tienen permisos para acceder a Captio y actuar en nombre de otras personas y el número de usuarios sobre los que tienen permisos de delegación.
+
+
+
+En el caso que se quiera delegar a usuarios de otro entorno, (otra sede de otro país por ejemplo), aparecerán estos usuarios en el mismo listado pero con la especificación del entorno en el que se encuentra. Es importante tener en cuenta que esta opción no está activada por defecto y debe ser solicitada al gestor de la cuenta de Emburse Captio. 
+
+
+
+ 
+
+Para que un usuario deje de actuar en nombre de otros usuarios por completo, se puede desmarcar la casilla en la linea de la delegación, el cambio se guardará automáticamente.
+
+
+
+Cualquier acción que se realice por parte de un usuario delegado se guardará en el registro de acciones sobre informes con el nombre del usuario en cuestión.
+
+
+Añadir nueva delegación
+
+
+Para crear una nueva delegación, haz click sobre el botón Añadir delegación para abrir el asistente. Solo tienes que seguir los siguientes pasos:
+
+Empieza a escribir el nombre del usuario que podrá actuar en nombre de otro.
+Selecciona los usuarios en nombre de quienes podrá actuar, marcando las casillas correspondientes.
+Selecciona el tipo de delegación a efectuar.
+Cierre la ventana del asistente, ¡y listo!
+Una vez realizada esta configuración, el usuario en cuestión podrá acceder a las cuentas de los usuarios de los cuales tenga permisos de delegación.
+
+ 
+Acceder en modo delegación
+El usuario entrará de forma normal en Captio usando su propio nombre de usuario y contraseña.  Para trabajar en nombre de otro usuario, se podrá acceder a través del menú de usuario (esquina superior derecha) y seleccionar la opción Acceder a otra cuenta.13.jpg
+
+En un desplegable se le mostrarán todos los usuarios a los que puede tener acceso. Una vez seleccione el que le interese, empezará a actuar en su nombre.
+
+
+
+Cuando se haya terminado el trabajo, no es necesario desloguearse; basta con ir al menú desplegable de la esquina superior derecha y volver a seleccionar el propio usuario.
+
+¿Cómo recuperar o cambiar la contraseña?
+Si no recuerdas tu contraseña, puedes pulsar en el enlace ¿Olvidaste la contraseña?/Forgot your password? para que Captio te ayude a iniciar sesión. Se abrirá una pantalla donde deberás poner el correo electrónico 2 veces y pulsar el botón Recuperar contraseña/Recover password y te enviaremos un correo electrónico con un enlace donde podrás escribir la nueva contraseña de acceso. Ten en cuenta que el enlace caduca en 20 minutos tras enviarlo.
+
+ 
+
+
+ 
+
+Una vez tengas la contraseña, vuelve a la aplicación y úsala para acceder desde la pantalla de Login para empezar a capturar tus gastos.
+
+ 
